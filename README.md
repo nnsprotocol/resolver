@@ -6,8 +6,8 @@ Welcome to the NNS Protocol Resolver! This package suite allows seamless integra
 
 Currently, we offer distinct packages tailored for different use cases and tech stacks:
 
-- **[@nnsprotocol/resolver-wagmi](https://google.com)**: A comprehensive package designed for projects utilizing [wagmi](https://wagmi.sh).
-<!-- - **[@nnsprotocol/resolver-ethers](https://google.com)**: A specialized package for projects leveraging [ethers.js v6](https://docs.ethers.org/v6/). -->
+- **[@nnsprotocol/resolver-wagmi](https://www.npmjs.com/package/@nnsprotocol/resolver-wagmi)**: A comprehensive package designed for projects utilizing [wagmi](https://wagmi.sh).
+<!-- - **[@nnsprotocol/resolver-ethers](https://www.npmjs.com/package/@nnsprotocol/resolver-ethers)**: A specialized package for projects leveraging [ethers.js v6](https://docs.ethers.org/v6/). -->
 
 You can find examples for each package in the respective `examples` folder, providing you with a quick start guide to integrating NNS resolution into your applications.
 
@@ -23,8 +23,8 @@ If you need integrations with different libraries, submit an issue and we can he
 
 To begin resolving `.⌐◨-◨` domains with the NNS Resolver, choose your favorite library and visit the dedicated package README:
 
-- [**@nnsprotocol/resolver-wagmi**](./packages/resolver-wagmi/README.md): Detailed instructions and examples for integrating with wagmi-based projects.
-<!-- - [**@nnsprotocol/resolver-ethers**](./packages/resolver-ethers/README.md): Comprehensive guide and examples for using the resolver with ethers.js. -->
+- [**@nnsprotocol/resolver-wagmi**](./packages/wagmi/README.md): Detailed instructions and examples for integrating with wagmi-based projects.
+<!-- - [**@nnsprotocol/resolver-ethers**](./packages/ethers/README.md): Comprehensive guide and examples for using the resolver with ethers.js. -->
 
 Each package README provides specific steps to install dependencies, integrate the resolver into your project, and run examples to see the resolver in action.
 

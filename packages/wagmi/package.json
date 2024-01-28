@@ -1,12 +1,13 @@
 {
   "name": "@nnsprotocol/resolver-wagmi",
+  "version": "0.0.1",
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "module": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nnsprotocol/resolver.git"
+    "url": "git+https://github.com/nnsprotocol/resolver.git"
   },
   "keywords": [
     "NNS"
