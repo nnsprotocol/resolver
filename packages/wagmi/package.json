@@ -1,0 +1,38 @@
+{
+  "name": "@nnsprotocol/resolver-wagmi",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "module": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nnsprotocol/resolver.git"
+  },
+  "keywords": [
+    "NNS"
+  ],
+  "author": "apbigcod.⌐◨-◨",
+  "license": "MIT",
+  "files": [
+    "dist/*.js",
+    "dist/*.d.ts"
+  ],
+  "scripts": {
+    "build:ts": "bun build --target=browser ./src/index.ts --outfile=dist/index.js -e wagmi -e viem --minify",
+    "build:types": "tsc --emitDeclarationOnly --project tsconfig.types.json",
+    "build": "bun run build:ts && bun run build:types"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@wagmi/cli": "^2.1.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0",
+    "wagmi": "^2.5.4",
+    "viem": "^2.5.0",
+    "@tanstack/react-query": "^5.17.19",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "dependencies": {}
+}

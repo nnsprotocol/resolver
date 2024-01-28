@@ -1,0 +1,1 @@
+export { useNnsName } from "./resolver";
